@@ -127,7 +127,7 @@ li:hover {
 
 .section2 {
     width: 100%;
-    height: 70vh;
+    height: 100%;
     margin-top: 100px;
 }
 
@@ -163,8 +163,8 @@ main {
     margin-bottom: 25px;
 }
 
-.main-right{
-    max-width: 50%;
+.main-right {
+    max-width: 100%;
 }
 
 
@@ -198,6 +198,7 @@ main {
     margin-top: 90px;
     max-width: 100%;
     height: 70vh;
+    position: relative;
     background-color: white;
 }
 
@@ -211,23 +212,21 @@ main {
     text-align: center;
 }
 
-.section3-image p {
+.section3 p {
     font-family: 'Courgette', cursive;
     font-size: 28px;
     color: #ec1d25;
-    top: 100px;
-    position: absolute;
-    left: 600px;
+    text-align: center;
+    padding-top: 9rem;
 }
 
-.section3-image h3 {
+.section3 h3 {
     font-size: 60px;
     color: white;
     letter-spacing: 15px;
     font-family: sans-serif;
-    position: absolute;
-    top: 150px;
-    left: 400px;
+    text-align: center;
+    padding-top: 2rem;
 }
 
 .section4 {
@@ -271,16 +270,32 @@ main {
 .button:hover {
     color: #ec1d25;
 }
+
 .button button:hover {
     color: #ec1d25;
 }
 
 
 
-
 @media (max-width: 1185px) {
     .text {
         left: 20rem;
+    }
+    header{
+        display: none;
+    }
+    .section1{
+        top: 0;
+    }
+    main{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 374px) {
+    .main-right img{
+        width: 100%;
+        object-fit: cover;
     }
 }
 
@@ -322,35 +337,37 @@ main {
 
 
 @media (max-width: 775px) {
-    .main-left h1{
+    .main-left h1 {
         font-size: 3rem;
     }
 }
+@media (max-width: 686px) {
+    .main-left{
+        max-width: 80%;
+    }
+    .section1 {
+        height: 60vh;
+    }
+}
+
 @media (max-width: 375px) {
-    .main-left h1{
+    .main-left h1 {
         font-size: 2.2rem;
     }
 }
-@media (max-width: 375px) {
-    .main-left{
-        margin-bottom: 60px;
-    }
-}
-@media (max-width: 475px) {
-    .main-left {
-        margin-left: 2.4rem;  
 
+@media (max-width: 1078px) {
+    .section4{
+        flex-direction: column;
+        height: 100%;
     }
 }
 
 
-@media (max-width: 775px) {
-    .main-right{
-        display: block;
-    }
-}
+
+
 @media (max-width: 530px) {
-    .section2{
+    .section2 {
         max-width: 500px;
         left: 1rem;
     }
@@ -359,30 +376,34 @@ main {
 
 
 @media (max-width: 928px) {
-    .section3 p{
+    .section3 p {
         left: 15rem;
     }
 }
+
 @media (max-width: 928px) {
-    .section3 h3{
+    .section3 h3 {
         left: 7rem;
     }
 }
+
 @media (max-width: 460px) {
-    .section3 h3{
+    .section3 h3 {
         left: 2rem;
         font-size: 3rem;
     }
+    
 }
+
 @media (max-width: 460px) {
-    .section3 p{
+    .section3 p {
         left: 7rem;
     }
 }
 
 
 @media (max-width: 785px) {
-    .section4 img{
+    .section4 img {
         max-width: 100%;
         object-fit: cover;
         gap: 40px;
