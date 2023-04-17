@@ -1,0 +1,165 @@
+@import "./reset";
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+}
+
+.head1 {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.head1-contain {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.title {
+    p {
+        font-size: 18px;
+    }
+}
+
+.icons {
+    display: flex;
+    padding-left: 90px;
+}
+
+.icon {
+    padding: 15px;
+}
+
+.icon5 {
+    padding-left: 100px;
+    padding-right: 120px;
+}
+
+.apply {
+    h3 {
+        background-color: yellow;
+        padding: 15px 10px;
+        text-transform: capitalize;
+    }
+}
+
+.image {
+    width: 100%;
+
+    img {
+        width: 100%;
+
+    }
+}
+
+
+.mobile-container {
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    background-color: #555;
+    color: white;
+    border-radius: 10px;
+}
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+}
+
+.topnav {
+
+    #myLinks {
+        display: block;
+        display: none;
+    }
+}
+
+.topnav {
+
+
+    a {
+        display: block;
+        float: left;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+}
+
+.topnav {
+
+    a.icon {
+        float: right;
+    }
+}
+.mobile-container {
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    background-color: #555;
+    color: white;
+    border-radius: 10px;
+}
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+}
+
+.topnav {
+
+    #myLinks {
+        display: block;
+        display: none;
+    }
+}
+
+.topnav {
+
+
+    a {
+        display: block;
+        float: left;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+}
+
+.topnav {
+
+    a.icon {
+        float: right;
+    }
+}
+
+
+
+
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+@media (max-width:634px) {
+    .apply {
+        display: none;
+    }
+
+    .bground {
+        height: 60vh;
+    }
+    
+}
