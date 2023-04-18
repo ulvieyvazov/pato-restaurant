@@ -1,0 +1,167 @@
+@import "./base/_reset.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+}
+.container .parent {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  gap: 3rem;
+}
+.container .parent .left {
+  width: 55%;
+}
+.container .parent .left .shopping {
+  width: 100%;
+}
+.container .parent .left .shopping .content1 {
+  border-bottom: 2px solid #D0CFCF;
+  font-size: 1.4rem;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+.container .parent .left .shopping .content2 {
+  padding-top: 20px;
+  font-size: 1.1rem;
+}
+.container .parent .left .carts {
+  width: 97%;
+  padding-top: 50px;
+}
+.container .parent .left .carts .cart {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 1px 1px 15px black;
+}
+.container .parent .left .carts .cart-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  padding: 5px;
+  margin: 20px 0;
+}
+.container .parent .left .carts .cart-child .child-text p {
+  font-size: 1.6rem;
+}
+.container .parent .right {
+  width: 28%;
+  background-color: #565ABB;
+  color: white;
+  border-bottom: 1px solid #5F65C3;
+  border-radius: 14px;
+}
+.container .parent .right .right-card {
+  display: flex;
+  align-items: center;
+  padding: 14px 0;
+  justify-content: space-between;
+}
+.container .parent .right .right-card h4 {
+  font-size: 1.4rem;
+  color: white;
+}
+.container .parent .right .img-1 {
+  width: 100%;
+  gap: 1rem;
+  display: flex;
+  padding-bottom: 1.4rem;
+}
+.container .parent .right .img-1 img {
+  width: 100%;
+}
+.container .parent .right form {
+  width: 100%;
+  padding-bottom: 8px;
+}
+.container .parent .right form .name {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+.container .parent .right form .date {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+.container .parent .right form .ex-date {
+  padding-right: 8px;
+  width: 50%;
+}
+.container .parent .right form .cvv {
+  width: 100%;
+}
+.container .parent .right form .cvv input {
+  width: 100%;
+}
+.container .parent .right form input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 0;
+  outline: none;
+  background-color: #979de7;
+}
+.container .parent .right .top-text-parent {
+  width: 80%;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+.container .parent .right .top-text-parent .top-text {
+  padding: 2px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.container .parent .right .top-text-parent .top-text p {
+  font-size: 1.1rem;
+}
+.container .parent .right .top-text-parent .top-text span {
+  font-size: 1.1rem;
+}
+.container .parent .right .button {
+  width: 80%;
+  padding-top: 27px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+}
+.container .parent .right .button button {
+  display: flex;
+  background-color: #4DE1C1;
+  padding: 12px 9px;
+  justify-content: space-between;
+  width: 100%;
+  border: 0;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.container .parent .right .button button p {
+  font-size: 1.1rem;
+}
+.container .parent .right .button button span {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 1072px) {
+  .container .parent {
+    flex-direction: column;
+  }
+  .container .parent .left {
+    width: 100%;
+  }
+  .container .parent .right {
+    width: 100%;
+  }
+}
+@media (max-width: 428px) {
+  .carts .cart-child {
+    flex-wrap: wrap;
+  }
+}
