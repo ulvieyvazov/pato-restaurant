@@ -10,6 +10,7 @@
   max-width: 1440px;
 }
 .container .parent {
+  padding-top: 20px;
   width: 90%;
   margin: 0 auto;
   display: flex;
@@ -29,7 +30,8 @@
 }
 .container .parent .left .shopping .content2 {
   padding-top: 20px;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 .container .parent .left .carts {
   width: 97%;

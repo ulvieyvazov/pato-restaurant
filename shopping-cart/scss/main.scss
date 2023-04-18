@@ -13,6 +13,7 @@
     max-width: 1440px;
 
     .parent {
+        padding-top: 20px;
         width: 90%;
         margin: 0 auto;
         display: flex;
@@ -33,7 +34,8 @@
 
                 .content2 {
                     padding-top: 20px;
-                    font-size: 1.1rem;
+                    font-size: 1.3rem;
+                    font-weight: 600;
                 }
             }
 
